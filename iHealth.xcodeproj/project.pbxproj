@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A784135624DB7061004ADD02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784135524DB7061004ADD02 /* AppDelegate.swift */; };
+		A784135824DB7061004ADD02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784135724DB7061004ADD02 /* SceneDelegate.swift */; };
+		A784135A24DB7061004ADD02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784135924DB7061004ADD02 /* ViewController.swift */; };
+		A784135D24DB7061004ADD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A784135B24DB7061004ADD02 /* Main.storyboard */; };
+		A784136024DB7061004ADD02 /* iHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A784135E24DB7061004ADD02 /* iHealth.xcdatamodeld */; };
+		A784136224DB7062004ADD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A784136124DB7062004ADD02 /* Assets.xcassets */; };
+		A784136524DB7062004ADD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A784136324DB7062004ADD02 /* LaunchScreen.storyboard */; };
+		A784137024DB7062004ADD02 /* iHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784136F24DB7062004ADD02 /* iHealthTests.swift */; };
+		A784137B24DB7062004ADD02 /* iHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A784137A24DB7062004ADD02 /* iHealthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A784136C24DB7062004ADD02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A784134A24DB7061004ADD02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A784135124DB7061004ADD02;
+			remoteInfo = iHealth;
+		};
+		A784137724DB7062004ADD02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A784134A24DB7061004ADD02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A784135124DB7061004ADD02;
+			remoteInfo = iHealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A784135224DB7061004ADD02 /* iHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A784135524DB7061004ADD02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A784135724DB7061004ADD02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A784135924DB7061004ADD02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A784135C24DB7061004ADD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A784135F24DB7061004ADD02 /* iHealth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iHealth.xcdatamodel; sourceTree = "<group>"; };
+		A784136124DB7062004ADD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A784136424DB7062004ADD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A784136624DB7062004ADD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A784136B24DB7062004ADD02 /* iHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A784136F24DB7062004ADD02 /* iHealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHealthTests.swift; sourceTree = "<group>"; };
+		A784137124DB7062004ADD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A784137624DB7062004ADD02 /* iHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A784137A24DB7062004ADD02 /* iHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHealthUITests.swift; sourceTree = "<group>"; };
+		A784137C24DB7062004ADD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A784134F24DB7061004ADD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A784136824DB7062004ADD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A784137324DB7062004ADD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A784134924DB7061004ADD02 = {
+			isa = PBXGroup;
+			children = (
+				A784135424DB7061004ADD02 /* iHealth */,
+				A784136E24DB7062004ADD02 /* iHealthTests */,
+				A784137924DB7062004ADD02 /* iHealthUITests */,
+				A784135324DB7061004ADD02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A784135324DB7061004ADD02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A784135224DB7061004ADD02 /* iHealth.app */,
+				A784136B24DB7062004ADD02 /* iHealthTests.xctest */,
+				A784137624DB7062004ADD02 /* iHealthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A784135424DB7061004ADD02 /* iHealth */ = {
+			isa = PBXGroup;
+			children = (
+				A784135524DB7061004ADD02 /* AppDelegate.swift */,
+				A784135724DB7061004ADD02 /* SceneDelegate.swift */,
+				A784135924DB7061004ADD02 /* ViewController.swift */,
+				A784135B24DB7061004ADD02 /* Main.storyboard */,
+				A784136124DB7062004ADD02 /* Assets.xcassets */,
+				A784136324DB7062004ADD02 /* LaunchScreen.storyboard */,
+				A784136624DB7062004ADD02 /* Info.plist */,
+				A784135E24DB7061004ADD02 /* iHealth.xcdatamodeld */,
+			);
+			path = iHealth;
+			sourceTree = "<group>";
+		};
+		A784136E24DB7062004ADD02 /* iHealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				A784136F24DB7062004ADD02 /* iHealthTests.swift */,
+				A784137124DB7062004ADD02 /* Info.plist */,
+			);
+			path = iHealthTests;
+			sourceTree = "<group>";
+		};
+		A784137924DB7062004ADD02 /* iHealthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A784137A24DB7062004ADD02 /* iHealthUITests.swift */,
+				A784137C24DB7062004ADD02 /* Info.plist */,
+			);
+			path = iHealthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A784135124DB7061004ADD02 /* iHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A784137F24DB7062004ADD02 /* Build configuration list for PBXNativeTarget "iHealth" */;
+			buildPhases = (
+				A784134E24DB7061004ADD02 /* Sources */,
+				A784134F24DB7061004ADD02 /* Frameworks */,
+				A784135024DB7061004ADD02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHealth;
+			productName = iHealth;
+			productReference = A784135224DB7061004ADD02 /* iHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A784136A24DB7062004ADD02 /* iHealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A784138224DB7062004ADD02 /* Build configuration list for PBXNativeTarget "iHealthTests" */;
+			buildPhases = (
+				A784136724DB7062004ADD02 /* Sources */,
+				A784136824DB7062004ADD02 /* Frameworks */,
+				A784136924DB7062004ADD02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A784136D24DB7062004ADD02 /* PBXTargetDependency */,
+			);
+			name = iHealthTests;
+			productName = iHealthTests;
+			productReference = A784136B24DB7062004ADD02 /* iHealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A784137524DB7062004ADD02 /* iHealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A784138524DB7062004ADD02 /* Build configuration list for PBXNativeTarget "iHealthUITests" */;
+			buildPhases = (
+				A784137224DB7062004ADD02 /* Sources */,
+				A784137324DB7062004ADD02 /* Frameworks */,
+				A784137424DB7062004ADD02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A784137824DB7062004ADD02 /* PBXTargetDependency */,
+			);
+			name = iHealthUITests;
+			productName = iHealthUITests;
+			productReference = A784137624DB7062004ADD02 /* iHealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A784134A24DB7061004ADD02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Stephanie Gao";
+				TargetAttributes = {
+					A784135124DB7061004ADD02 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					A784136A24DB7062004ADD02 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A784135124DB7061004ADD02;
+					};
+					A784137524DB7062004ADD02 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A784135124DB7061004ADD02;
+					};
+				};
+			};
+			buildConfigurationList = A784134D24DB7061004ADD02 /* Build configuration list for PBXProject "iHealth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A784134924DB7061004ADD02;
+			productRefGroup = A784135324DB7061004ADD02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A784135124DB7061004ADD02 /* iHealth */,
+				A784136A24DB7062004ADD02 /* iHealthTests */,
+				A784137524DB7062004ADD02 /* iHealthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A784135024DB7061004ADD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A784136524DB7062004ADD02 /* LaunchScreen.storyboard in Resources */,
+				A784136224DB7062004ADD02 /* Assets.xcassets in Resources */,
+				A784135D24DB7061004ADD02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A784136924DB7062004ADD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A784137424DB7062004ADD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A784134E24DB7061004ADD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A784135A24DB7061004ADD02 /* ViewController.swift in Sources */,
+				A784135624DB7061004ADD02 /* AppDelegate.swift in Sources */,
+				A784135824DB7061004ADD02 /* SceneDelegate.swift in Sources */,
+				A784136024DB7061004ADD02 /* iHealth.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A784136724DB7062004ADD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A784137024DB7062004ADD02 /* iHealthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A784137224DB7062004ADD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A784137B24DB7062004ADD02 /* iHealthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A784136D24DB7062004ADD02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A784135124DB7061004ADD02 /* iHealth */;
+			targetProxy = A784136C24DB7062004ADD02 /* PBXContainerItemProxy */;
+		};
+		A784137824DB7062004ADD02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A784135124DB7061004ADD02 /* iHealth */;
+			targetProxy = A784137724DB7062004ADD02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A784135B24DB7061004ADD02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A784135C24DB7061004ADD02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A784136324DB7062004ADD02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A784136424DB7062004ADD02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A784137D24DB7062004ADD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A784137E24DB7062004ADD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A784138024DB7062004ADD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Gao.iHealth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A784138124DB7062004ADD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Gao.iHealth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A784138324DB7062004ADD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iHealthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Gao.iHealthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHealth.app/iHealth";
+			};
+			name = Debug;
+		};
+		A784138424DB7062004ADD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iHealthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Gao.iHealthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHealth.app/iHealth";
+			};
+			name = Release;
+		};
+		A784138624DB7062004ADD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iHealthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Gao.iHealthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iHealth;
+			};
+			name = Debug;
+		};
+		A784138724DB7062004ADD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iHealthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Gao.iHealthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iHealth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A784134D24DB7061004ADD02 /* Build configuration list for PBXProject "iHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A784137D24DB7062004ADD02 /* Debug */,
+				A784137E24DB7062004ADD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A784137F24DB7062004ADD02 /* Build configuration list for PBXNativeTarget "iHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A784138024DB7062004ADD02 /* Debug */,
+				A784138124DB7062004ADD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A784138224DB7062004ADD02 /* Build configuration list for PBXNativeTarget "iHealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A784138324DB7062004ADD02 /* Debug */,
+				A784138424DB7062004ADD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A784138524DB7062004ADD02 /* Build configuration list for PBXNativeTarget "iHealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A784138624DB7062004ADD02 /* Debug */,
+				A784138724DB7062004ADD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A784135E24DB7061004ADD02 /* iHealth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A784135F24DB7061004ADD02 /* iHealth.xcdatamodel */,
+			);
+			currentVersion = A784135F24DB7061004ADD02 /* iHealth.xcdatamodel */;
+			path = iHealth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A784134A24DB7061004ADD02 /* Project object */;
+}
